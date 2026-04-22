@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ebook — IA Domínio Total</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+<style>
+  body{background:#f5f5f7;color:#1a1a1a;padding-bottom:40px}
+  .sidebar-toc{
+    position:sticky;top:0;background:#0a0a0f;color:#fff;
+    padding:14px 20px;z-index:10;display:flex;gap:10px;align-items:center;
+    overflow-x:auto;white-space:nowrap;font-size:13px;
+  }
+  .sidebar-toc a{color:#9ca3af;padding:4px 10px;border-radius:4px}
+  .sidebar-toc a:hover{background:#1a1a2e;color:#00ff88}
+</style>
+</head>
+<body>
+
+<nav class="sidebar-toc">
+  <strong style="color:#00ff88">📘 Navegar:</strong>
+  <a href="#intro">Introdução</a>
+  <a href="#chatgpt">ChatGPT</a>
+  <a href="#gemini">Gemini</a>
+  <a href="#grok">Grok</a>
+  <a href="#claude">Claude</a>
+  <a href="#manus">Manus</a>
+  <a href="#perplexity">Perplexity</a>
+  <a href="#copilot">Copilot</a>
+  <a href="#deepseek">DeepSeek</a>
+  <a href="#mistral">Mistral</a>
+  <a href="#prompt">Prompt Engineering</a>
+  <a href="#fluxos">Fluxos Multi-IA</a>
+  <a href="#negocios">Negócios</a>
+</nav>
+
+<main class="book-body">
+
+<div class="cap">
+  <h2>IA DOMÍNIO TOTAL</h2>
+  <p>O manual definitivo para dominar todas as IAs do momento e transformá-las em tempo, dinheiro e uma nova profissão.</p>
+</div>
+
+<h1 id="intro">Introdução: Bem-vindo à nova era</h1>
+
+<p>Você acabou de comprar o passaporte para a maior transformação profissional da sua vida. Em 2023, saber usar IA era diferencial. Em 2024, virou vantagem. Em 2025, virou requisito. Em 2026 — que é onde estamos agora — virou o divisor entre quem tem emprego e quem não tem, entre quem fatura bem e quem trabalha dobrado por menos.</p>
+
+<p>Este ebook não vai te ensinar teoria. Não vai falar sobre "o futuro do trabalho" nem sobre "como a IA vai mudar o mundo". Esse papo furado já deu. Você vai aprender o que fazer, na prática, com cada IA — qual usar pra cada situação, como extrair o máximo do plano gratuito de cada uma, e como transformar tudo isso em dinheiro.</p>
+
+<p>A estrutura é simples: cada IA tem seu capítulo. Em cada capítulo você encontra:</p>
+<ul>
+  <li><strong>O que é</strong> — explicado em 1 parágrafo, sem enrolação.</li>
+  <li><strong>Para que serve de verdade</strong> — os casos reais onde brilha.</li>
+  <li><strong>Quanto custa</strong> — e se vale a pena pagar.</li>
+  <li><strong>Como começar em 5 minutos</strong> — passo a passo visual.</li>
+  <li><strong>3 prompts matadores</strong> — para usar HOJE.</li>
+  <li><strong>Armadilhas</strong> — o que evitar.</li>
+</ul>
+
+<p>No fim, você vai ter os fluxos de trabalho que combinam múltiplas IAs (onde está o ouro de verdade) e os 7 modelos de negócio que você pode abrir essa semana. Bora.</p>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="chatgpt">Capítulo 1 — ChatGPT (GPT-5)</h1>
+
+<p>O ChatGPT, da OpenAI, é a IA mais conhecida do mundo — e por um motivo simples: ela é excelente em quase tudo. Em 2026, o modelo padrão é o GPT-5, com raciocínio avançado, memória persistente e capacidade multimodal nativa (lê imagens, ouve áudios, gera arquivos).</p>
+
+<h2>Para que o ChatGPT é imbatível</h2>
+<ul>
+  <li><strong>Escrita criativa e copy:</strong> artigos, e-mails, roteiros, posts para redes sociais.</li>
+  <li><strong>Planejamento:</strong> cronogramas, rotinas, estratégias de negócio.</li>
+  <li><strong>Conversa natural:</strong> é a IA com o "papo" mais fluido.</li>
+  <li><strong>Análise de documentos:</strong> jogue um PDF de 80 páginas e ele resume em 30 segundos.</li>
+  <li><strong>Code Interpreter:</strong> roda código Python em tempo real, gera gráficos, analisa planilhas.</li>
+</ul>
+
+<h2>Planos em 2026</h2>
+<ul>
+  <li><strong>Grátis:</strong> GPT-5 mini, limite baixo. Ok para testar.</li>
+  <li><strong>Plus (US$ 20/mês):</strong> GPT-5 completo, imagens, voz, plugins. Custo-benefício top.</li>
+  <li><strong>Pro (US$ 200/mês):</strong> só vale se você usa 10+ horas por dia.</li>
+</ul>
+
+<blockquote><strong>Dica de ouro:</strong> o plano Plus geralmente só compensa se você usa a IA no mínimo 1 hora por dia para trabalho. Caso contrário, combine ChatGPT grátis + Claude grátis + Gemini grátis e cubra tudo sem pagar nada.</blockquote>
+
+<h2>Como começar em 5 minutos</h2>
+<ol>
+  <li>Acesse <code>chat.openai.com</code> e crie conta com seu e-mail.</li>
+  <li>No primeiro uso, ative a "memória" nas configurações. Isso faz o GPT lembrar de você em próximas conversas.</li>
+  <li>No canto inferior, clique no microfone para conversar por voz — um dos recursos mais subutilizados.</li>
+  <li>Arraste um PDF ou imagem para o chat — ele lê tudo.</li>
+</ol>
+
+<h2>3 Prompts Matadores para ChatGPT</h2>
+
+<div class="prompt-block">Aja como um copywriter publicitário de 20 anos de experiência especializado em anúncios de resposta direta.
+
+Meu produto: [DESCREVA]
+Meu público: [DESCREVA]
+Minha oferta: [DESCREVA]
+
+Crie 10 variações de headline usando as fórmulas:
+1. Pergunta provocativa
+2. Promessa + prazo
+3. Contradição
+4. Segredo revelado
+5. Tragédia evitada
+
+Depois, para cada headline, escreva 1 parágrafo de abertura de 50 palavras.</div>
+
+<div class="prompt-block">Você é um estrategista de negócio. Analise a ideia abaixo e responda com:
+
+1. 3 pontos fortes REAIS (sem elogio vazio)
+2. 3 pontos fracos que posso não estar vendo
+3. 2 modelos de monetização testados
+4. 1 erro fatal que devo evitar no primeiro mês
+5. Ação #1 que eu devo fazer HOJE
+
+Ideia: [COLE AQUI]</div>
+
+<div class="prompt-block">Seja meu professor particular. Quero aprender [TEMA].
+
+Crie um plano de 14 dias, 20 minutos por dia, com:
+- Conteúdo do dia (direto e prático)
+- Exercício para fazer no fim do dia
+- Critério de "entendi" para avançar
+
+Comece pelo dia 1 AGORA. Só avance quando eu disser "próximo".</div>
+
+<h2>Armadilhas comuns do ChatGPT</h2>
+<ul>
+  <li><strong>Alucinação:</strong> ele inventa fatos, nomes, números. Sempre confirme informações críticas.</li>
+  <li><strong>Data de corte:</strong> não tem acesso à web no plano grátis. Use o modo "Search" ou o Perplexity para notícias atuais.</li>
+  <li><strong>Resposta vazia:</strong> se a resposta veio genérica, reescreva o prompt com mais contexto e peça formato específico (lista, tabela, JSON).</li>
+</ul>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="gemini">Capítulo 2 — Google Gemini (3 Pro)</h1>
+
+<p>O Gemini é a aposta do Google na guerra da IA. Em 2026, está na versão 3 Pro, com uma janela de contexto de 2 milhões de tokens — ou seja, você pode jogar livros inteiros que ele lê tudo. É o rei em tarefas longas e integração com Google.</p>
+
+<h2>Para que o Gemini é imbatível</h2>
+<ul>
+  <li><strong>Contexto gigante:</strong> livros inteiros, vídeos longos, bases de código completas.</li>
+  <li><strong>Integração Google:</strong> Drive, Gmail, Docs, YouTube — tudo conversa.</li>
+  <li><strong>Análise de vídeo:</strong> mande um vídeo do YouTube, ele assiste e resume.</li>
+  <li><strong>Gemini Deep Research:</strong> faz pesquisas automáticas na web e entrega relatório.</li>
+  <li><strong>Gratuidade generosa:</strong> no Gemini grátis você já tem o modelo Pro com uso fora do comum.</li>
+</ul>
+
+<h2>Planos</h2>
+<ul>
+  <li><strong>Gemini grátis:</strong> é tão bom que muita gente não precisa pagar nada.</li>
+  <li><strong>Gemini Advanced (R$ 96/mês):</strong> Deep Research ilimitado, geração de vídeo Veo, 2TB no Drive.</li>
+  <li><strong>Workspace:</strong> integrado ao Google Workspace da sua empresa.</li>
+</ul>
+
+<h2>3 Prompts Matadores para Gemini</h2>
+
+<div class="prompt-block">[Cole o link de um vídeo do YouTube ou anexe um PDF]
+
+Faça um resumo executivo em 3 camadas:
+
+1. TL;DR (1 parágrafo — o que é)
+2. Principais insights (5 bullets numerados)
+3. Ações práticas que eu, [SUA PROFISSÃO], devo tirar disso
+
+Termine com 3 perguntas que eu deveria me fazer depois de ler.</div>
+
+<div class="prompt-block">Use o Deep Research para investigar: "[TEMA]"
+
+Foque em:
+- Dados e estatísticas de 2025 e 2026
+- Principais players e quem está ganhando
+- 3 tendências emergentes que ninguém percebeu
+- Oportunidades para pequenos negócios no Brasil
+
+Entregue um relatório organizado em seções com fontes.</div>
+
+<div class="prompt-block">Tenho uma planilha com [X] linhas sobre [TEMA]. Vou colar os dados. Quero que você:
+
+1. Identifique os 3 padrões mais importantes
+2. Crie 3 gráficos mentais (descritos) que ajudariam a visualizar
+3. Diga qual linha/categoria merece atenção urgente e por quê
+4. Sugira 1 ação de negócio baseada nos dados
+
+Dados: [COLE AQUI]</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="grok">Capítulo 3 — Grok (xAI)</h1>
+
+<p>O Grok, de Elon Musk, é a IA integrada ao X (ex-Twitter). Em 2026 está na versão Grok 4. Sua maior vantagem: acesso em tempo real ao que está acontecendo no X agora. É o rei do zeitgeist.</p>
+
+<h2>Para que o Grok é imbatível</h2>
+<ul>
+  <li><strong>Tempo real:</strong> se algo aconteceu há 10 minutos, o Grok já sabe.</li>
+  <li><strong>Tom direto e sem censura excessiva:</strong> responde coisas que o ChatGPT evita.</li>
+  <li><strong>Análise de trending topics:</strong> ótimo para creators que produzem conteúdo em alta.</li>
+  <li><strong>Modo "Think":</strong> raciocínio profundo para problemas complexos.</li>
+</ul>
+
+<h2>Planos</h2>
+<ul>
+  <li>Grok tem plano grátis limitado no X.</li>
+  <li>X Premium+ (R$ 120/mês aprox): acesso completo ao Grok 4 + Grok Imagine (geração de vídeo).</li>
+</ul>
+
+<h2>3 Prompts Matadores para Grok</h2>
+
+<div class="prompt-block">Grok, use dados em tempo real do X para identificar:
+
+1. Top 5 assuntos em alta AGORA no Brasil sobre [NICHO]
+2. Para cada tópico, o sentimento predominante (positivo/negativo/neutro)
+3. Um gancho de conteúdo que eu possa postar HOJE para pegar essa onda
+
+Entregue em formato pronto para colar no meu calendário de posts.</div>
+
+<div class="prompt-block">Analise os últimos 100 tweets do perfil @[USERNAME] e me diga:
+
+- Qual é a mensagem central que essa pessoa está vendendo
+- 3 padrões de linguagem que ele usa e por que funcionam
+- 1 fraqueza na argumentação dele que eu poderia explorar num debate
+- Como eu criaria um conteúdo de resposta que ganhe tração</div>
+
+<div class="prompt-block">Modo Think ativado. Quero debater comigo o seguinte problema:
+
+[DESCREVA O PROBLEMA]
+
+Defenda a posição oposta à minha com argumentos sólidos, sem suavizar. Me desafie de verdade. Só concorde comigo quando eu apresentar um argumento inquestionável.</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="claude">Capítulo 4 — Claude 4.7 e Claude Code</h1>
+
+<p>Claude é o modelo da Anthropic e, em 2026, é consenso na comunidade técnica como o melhor modelo para escrita longa, raciocínio sutil e — principalmente — programação. O modelo atual é o Claude Opus 4.7. O Claude Code é uma ferramenta separada que integra o Claude ao seu terminal, seu editor e seu navegador.</p>
+
+<h2>Para que Claude é imbatível</h2>
+<ul>
+  <li><strong>Escrita longa com qualidade de escritor:</strong> romances, ensaios, documentação técnica.</li>
+  <li><strong>Programação:</strong> é o modelo mais usado por desenvolvedores profissionais.</li>
+  <li><strong>Análise ética e nuances:</strong> responde perguntas complexas com camadas.</li>
+  <li><strong>Artifacts:</strong> cria arquivos HTML, React, Python dentro do chat — você vê rodando.</li>
+  <li><strong>Projetos:</strong> envie 10+ documentos como "contexto" e ele trabalha com tudo ao mesmo tempo.</li>
+</ul>
+
+<h2>Claude Code — a ferramenta que muda o jogo</h2>
+
+<p>O Claude Code é um agente autônomo que roda no seu computador. Você dá uma tarefa ("crie um site de vendas"), ele abre arquivos, escreve código, testa, corrige erros e entrega pronto. É como ter um programador sênior disponível 24h.</p>
+
+<p>Instalação em 30 segundos:</p>
+<div class="prompt-block">npm install -g @anthropic-ai/claude-code
+claude</div>
+
+<p>Depois é só falar com ele em português mesmo. Exemplos reais que funcionam:</p>
+
+<div class="prompt-block">Crie um site de uma página para minha barbearia. Nome: Barbearia do João.
+Estilo: moderno, escuro, com dourado. Deve ter:
+- Banner com frase de impacto
+- Serviços com preço
+- Galeria de cortes
+- Botão de WhatsApp flutuante
+- Formulário de agendamento
+Use HTML/CSS/JS puro. Deixe pronto para hospedar no GitHub Pages.</div>
+
+<h2>Planos do Claude</h2>
+<ul>
+  <li><strong>Grátis:</strong> Claude Sonnet, uso moderado.</li>
+  <li><strong>Pro (US$ 20/mês):</strong> Claude Opus, Projects, artifacts avançados.</li>
+  <li><strong>Max (US$ 100/mês):</strong> Claude Code com uso pesado, ideal para profissionais.</li>
+</ul>
+
+<h2>3 Prompts Matadores para Claude</h2>
+
+<div class="prompt-block">Você é um editor de best-sellers que já trabalhou com autores como Stephen King e Gillian Flynn.
+
+Vou te enviar um trecho de 1000 palavras do meu livro. Quero:
+
+1. Avaliação honesta de 1 a 10 (seja duro)
+2. 3 pontos fortes específicos (com citação do texto)
+3. 5 pontos que precisam ser reescritos, com sugestão concreta
+4. Uma frase reescrita por você, no estilo que você acha que o texto pediria
+
+Trecho: [COLE AQUI]</div>
+
+<div class="prompt-block">Criar um artifact:
+
+Faça uma calculadora de juros compostos em HTML+CSS+JS numa página só.
+Deve ter:
+- Campos: valor inicial, aporte mensal, taxa anual, anos
+- Gráfico de evolução (use Chart.js via CDN)
+- Tabela com valores mensais
+- Design limpo, moderno, responsivo, tema escuro
+- Tudo em 1 arquivo HTML que funciona offline</div>
+
+<div class="prompt-block">Atue como um mentor sênior. Vou te contar uma decisão difícil que preciso tomar. Antes de me dar resposta, me faça 5 perguntas — uma de cada vez — que me ajudem a enxergar o problema de ângulos que eu não estou vendo.
+
+Só depois das 5 perguntas, me dê sua análise final.
+
+Minha situação: [DESCREVA]</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="manus">Capítulo 5 — Manus IA</h1>
+
+<p>A Manus IA é uma das estrelas da nova geração — um agente autônomo chinês que faz pesquisa, planeja, executa tarefas no navegador e entrega resultado concreto. É diferente das outras: você dá uma missão, ela se vira.</p>
+
+<h2>Para que a Manus é imbatível</h2>
+<ul>
+  <li><strong>Pesquisa autônoma de ponta a ponta:</strong> pede um relatório, recebe um relatório.</li>
+  <li><strong>Navega na web de verdade:</strong> abre sites, preenche formulários, baixa arquivos.</li>
+  <li><strong>Planejamento multi-etapa:</strong> quebra a tarefa em subtarefas sozinha.</li>
+  <li><strong>Criação de planilhas e apresentações:</strong> entrega em formato pronto para usar.</li>
+</ul>
+
+<h2>Como começar</h2>
+<ol>
+  <li>Acesse <code>manus.im</code> e crie sua conta.</li>
+  <li>Você começa com créditos grátis. Use sabiamente.</li>
+  <li>Escreva o pedido como se fosse para um assistente humano.</li>
+</ol>
+
+<h2>3 Prompts Matadores para Manus</h2>
+
+<div class="prompt-block">Missão: pesquisar os 20 maiores concorrentes de [NICHO] no Brasil.
+
+Para cada um, coletar:
+- Nome
+- Site
+- Instagram (com número de seguidores)
+- Principal oferta
+- Faixa de preço
+- Um ponto forte e um ponto fraco
+
+Entregar tudo em uma planilha organizada, ordenada por tamanho do Instagram.</div>
+
+<div class="prompt-block">Crie uma apresentação em PDF de 10 slides sobre o tema [X] para o público [Y].
+
+Estilo: minimalista, fundo escuro, destaque em verde.
+
+Conteúdo: faça a pesquisa sozinha, traga dados atualizados, cite fontes no último slide.
+
+Entregue o PDF pronto.</div>
+
+<div class="prompt-block">Pesquise os 5 editais de chamada pública abertos esta semana em [CIDADE/ESTADO] que se encaixem em [ÁREA].
+
+Para cada um: título, órgão, valor disponível, data limite, link oficial, critérios principais e meu grau de compatibilidade se meu perfil é [DESCREVA].
+
+Entregue como lista com link.</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="perplexity">Capítulo 6 — Perplexity</h1>
+
+<p>Perplexity é o "Google com esteroides". É um motor de busca com IA que entrega respostas com fontes citadas. Quando você quer informação factual, atualizada, confiável, a resposta quase sempre é Perplexity.</p>
+
+<h2>Para que é imbatível</h2>
+<ul>
+  <li><strong>Informação atual:</strong> busca ao vivo na web e cita fontes.</li>
+  <li><strong>Pesquisa acadêmica:</strong> filtro para papers e artigos científicos.</li>
+  <li><strong>Comparação de produtos:</strong> tabela comparativa gerada automaticamente.</li>
+  <li><strong>Fato-checking:</strong> duvidou de algo? Cola no Perplexity.</li>
+</ul>
+
+<h2>3 Prompts Matadores para Perplexity</h2>
+
+<div class="prompt-block">Quais são os 5 melhores [PRODUTO] disponíveis no Brasil em 2026, com melhor custo-benefício, para [USO]?
+
+Para cada um, me dê:
+- Preço médio atual
+- Principal ponto forte
+- Principal ponto fraco
+- Link para comprar
+- Avaliação média em sites brasileiros
+
+Cite as fontes.</div>
+
+<div class="prompt-block">Pesquise as últimas regulamentações de 2025 e 2026 sobre [TEMA] no Brasil.
+
+Organize cronologicamente, com:
+- Data
+- Órgão responsável
+- Resumo em 2 linhas
+- Impacto prático para [PROFISSÃO/NICHO]
+- Link para norma original</div>
+
+<div class="prompt-block">O que exatamente é [CONCEITO]?
+
+Explique em 3 níveis:
+1. Para uma criança de 10 anos
+2. Para um universitário
+3. Para um especialista
+
+Depois, mostre 3 aplicações reais em empresas brasileiras e cite as fontes.</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="copilot">Capítulo 7 — Microsoft Copilot</h1>
+
+<p>O Copilot é a IA da Microsoft integrada ao Windows, Office e Edge. Usa modelos da OpenAI (GPT-5) + modelos próprios. Para quem trabalha com Excel, Word, PowerPoint e Outlook, é obrigatório.</p>
+
+<h2>Para que é imbatível</h2>
+<ul>
+  <li><strong>Excel:</strong> "resuma essa planilha em 3 insights" — e pronto.</li>
+  <li><strong>Word:</strong> transforma bullets em texto corrido profissional.</li>
+  <li><strong>PowerPoint:</strong> gera apresentação inteira a partir de um prompt.</li>
+  <li><strong>Outlook:</strong> responde e-mails no seu tom de voz automaticamente.</li>
+  <li><strong>Copilot+ PC:</strong> roda localmente, sem internet — privacidade total.</li>
+</ul>
+
+<h2>3 Prompts Matadores para Copilot</h2>
+
+<div class="prompt-block">No Excel: analise essa planilha de vendas e crie:
+
+1. Resumo em 5 bullets
+2. Top 3 produtos
+3. Meses com queda incomum
+4. Previsão para os próximos 3 meses (método simples, explicado)
+5. Uma tabela dinâmica recomendada</div>
+
+<div class="prompt-block">No PowerPoint: crie uma apresentação de 12 slides sobre [TEMA] para [PÚBLICO].
+
+Use o template Ion.
+Cada slide: título + 3 bullets + sugestão de imagem.
+Último slide: próximos passos em 5 itens.</div>
+
+<div class="prompt-block">No Outlook: escreva um e-mail profissional para [NOME], assunto [X], tom [formal/amigável].
+
+Contexto: [DESCREVA].
+Objetivo: [DESCREVA].
+Quero que o e-mail termine com uma pergunta que force resposta.</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="deepseek">Capítulo 8 — DeepSeek</h1>
+
+<p>DeepSeek é a IA chinesa que chocou o mercado em 2025 entregando performance comparável ao GPT-4 a uma fração do custo. Em 2026, é uma das opções mais baratas e poderosas para programação e raciocínio.</p>
+
+<h2>Para que é imbatível</h2>
+<ul>
+  <li><strong>Código:</strong> DeepSeek Coder é referência em programação.</li>
+  <li><strong>Matemática:</strong> DeepSeek Math resolve problemas olímpicos.</li>
+  <li><strong>API barata:</strong> para desenvolvedores, é ~90% mais barato que OpenAI.</li>
+  <li><strong>Open-source:</strong> você pode rodar localmente sem depender de ninguém.</li>
+</ul>
+
+<h2>Prompt matador</h2>
+<div class="prompt-block">Tenho esse código em [LINGUAGEM]:
+
+[COLE CÓDIGO]
+
+Quero que você:
+1. Explique linha por linha o que faz
+2. Aponte os 3 bugs ou riscos que ninguém normalmente vê
+3. Reescreva de forma mais performática e segura
+4. Adicione testes unitários cobrindo os edge cases</div>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="mistral">Capítulo 9 — Mistral / Le Chat</h1>
+
+<p>Mistral é a IA francesa, com o chatbot Le Chat. É conhecida por ser rápida, privada (GDPR-friendly) e ter um modelo open-source excelente. Para quem se preocupa com privacidade dos dados, é a escolha óbvia.</p>
+
+<h2>Para que é imbatível</h2>
+<ul>
+  <li><strong>Velocidade:</strong> uma das IAs com resposta mais rápida do mundo.</li>
+  <li><strong>Privacidade:</strong> data centers na Europa, conformidade total com LGPD.</li>
+  <li><strong>Canvas:</strong> editor colaborativo dentro do chat, como o Artifacts do Claude.</li>
+  <li><strong>Visão computacional:</strong> lê imagens e documentos com precisão cirúrgica.</li>
+</ul>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="prompt">Capítulo 10 — Prompt Engineering: o Framework PROMPT-X</h1>
+
+<p>A diferença entre uma IA inútil e uma IA que muda sua vida não está na IA. Está no prompt. Aqui está o framework que professores de IA cobram R$ 3.000 para ensinar.</p>
+
+<h2>As 7 letras do PROMPT-X</h2>
+
+<p><strong>P — Persona.</strong> Diga quem a IA deve "ser". "Você é um copywriter de 20 anos" gera resposta diferente de "escreva uma copy".</p>
+
+<p><strong>R — Requisitos.</strong> Liste os requisitos da resposta. Tamanho, formato, tom, público.</p>
+
+<p><strong>O — Objetivo.</strong> Qual é o resultado esperado? "Quero que o leitor clique no botão" é diferente de "quero informar".</p>
+
+<p><strong>M — Materiais.</strong> Dê contexto. Cole o briefing, o texto base, a pesquisa. Nunca parta do zero.</p>
+
+<p><strong>P — Processo.</strong> Diga COMO você quer que ela pense. "Primeiro analise, depois critique, depois reescreva."</p>
+
+<p><strong>T — Teste.</strong> Peça que ela teste a resposta antes de entregar. "Releia e corrija os 3 pontos mais fracos."</p>
+
+<p><strong>X — Exemplo.</strong> Se possível, mostre um exemplo do que você quer. "No estilo deste texto: [cole]".</p>
+
+<h2>Prompt PROMPT-X completo (template)</h2>
+
+<div class="prompt-block">[PERSONA] Você é um [profissão/autoridade] com [experiência específica].
+
+[REQUISITOS] Responda em [formato: texto/lista/tabela], com no máximo [tamanho], em tom [formal/direto/provocativo], para o público [descrição].
+
+[OBJETIVO] O resultado final deve fazer o leitor [ação desejada].
+
+[MATERIAIS] Use as informações abaixo como base principal:
+[COLE CONTEXTO / BRIEFING / DADOS]
+
+[PROCESSO] Pense assim, em 3 etapas:
+1. Primeiro, analise o que está sendo pedido.
+2. Depois, planeje a estrutura ideal em tópicos.
+3. Só então, escreva a versão final.
+
+[TESTE] Antes de me entregar, releia sua resposta e corrija:
+- Qualquer frase genérica
+- Qualquer ponto que um humano comum já saberia
+- Qualquer excesso de palavras
+
+[EXEMPLO] Estilo de referência: [cole exemplo ou descreva].
+
+Agora execute.</div>
+
+<p>Esse template sozinho vai elevar seus resultados em 10x. Salve como texto rápido no teclado do celular (atalho) e use diariamente.</p>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="fluxos">Capítulo 11 — Fluxos Multi-IA (onde está o ouro)</h1>
+
+<p>Um usuário iniciante pensa: "Qual IA é a melhor?". Um usuário avançado pensa: "Qual IA faz cada parte melhor?". O segredo está em combinar.</p>
+
+<h2>Fluxo 1: Conteúdo para Instagram (3 IAs, 10 minutos)</h2>
+<ol>
+  <li><strong>Perplexity:</strong> pesquisa os 3 ganchos em alta no seu nicho.</li>
+  <li><strong>Claude:</strong> escreve o carrossel com storytelling profissional.</li>
+  <li><strong>Nano Banana Pro 2:</strong> gera as 10 imagens em estilo consistente.</li>
+  <li><strong>ElevenLabs:</strong> gera áudio de reels com sua voz clonada.</li>
+</ol>
+
+<h2>Fluxo 2: Freelancer pesquisa + proposta (2 IAs, 20 minutos)</h2>
+<ol>
+  <li><strong>Manus IA:</strong> pesquisa tudo sobre o cliente em potencial e gera um dossiê.</li>
+  <li><strong>Claude:</strong> escreve uma proposta personalizada no estilo do cliente.</li>
+</ol>
+
+<h2>Fluxo 3: Estudo acelerado (4 IAs, 2 horas por tema)</h2>
+<ol>
+  <li><strong>Gemini:</strong> processa o PDF de 200 páginas e resume em 10 seções.</li>
+  <li><strong>ChatGPT:</strong> gera 30 perguntas para testar seu conhecimento.</li>
+  <li><strong>Claude:</strong> cria um mapa mental visual em HTML.</li>
+  <li><strong>ElevenLabs:</strong> transforma os resumos em áudio para ouvir no trânsito.</li>
+</ol>
+
+<h2>Fluxo 4: Anúncio completo para Meta Ads (3 IAs, 40 minutos)</h2>
+<ol>
+  <li><strong>Claude:</strong> escreve 15 variações de copy seguindo framework AIDA.</li>
+  <li><strong>Nano Banana Pro 2:</strong> gera 10 imagens de criativo.</li>
+  <li><strong>Sora 2:</strong> gera 3 vídeos curtos (6-10s) para teste de variação.</li>
+  <li><strong>ElevenLabs:</strong> dubla cada vídeo com voz profissional.</li>
+</ol>
+
+<p>Com esses 4 fluxos você já é um profissional que cobra R$ 200 a R$ 2.000 por entrega. No próximo capítulo você vê como vender.</p>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1 id="negocios">Capítulo 12 — 7 Modelos de Negócio com IA</h1>
+
+<p>Conhecer a IA é 30% do jogo. Transformar em dinheiro é 70%. Aqui vão os 7 modelos testados, do mais simples ao mais avançado.</p>
+
+<h3>1. Freelancer de conteúdo IA (R$ 1.000 – R$ 5.000/mês)</h3>
+<p>Você entrega posts, carrosséis, roteiros de reels para pequenos negócios locais. Preço: R$ 297 a R$ 997 por pacote mensal. Use o fluxo 1.</p>
+
+<h3>2. Criador de criativos UGC com IA (R$ 3.000 – R$ 15.000/mês)</h3>
+<p>Esse é o modelo mais quente de 2026. Você cria anúncios em vídeo usando atores virtuais (HeyGen ou Hedra) e entrega pronto para Meta/TikTok. Preço: R$ 500 a R$ 1.500 por criativo. Veja bônus dedicado.</p>
+
+<h3>3. Tradutor/Dublador com ElevenLabs (R$ 2.000 – R$ 10.000/mês)</h3>
+<p>Dubla vídeos de YouTubers estrangeiros para português ou vice-versa. Preço: R$ 50 por minuto de vídeo entregue.</p>
+
+<h3>4. Consultor de IA para pequenos negócios (R$ 2.000 – R$ 20.000/mês)</h3>
+<p>Você implementa IA em empresas locais: atendimento por WhatsApp (via n8n + OpenAI), automação de tarefas, geração de relatórios. Cobrança: setup R$ 2.000 + mensalidade R$ 500.</p>
+
+<h3>5. Criador de infoprodutos com IA (R$ 5.000 – R$ 50.000/mês)</h3>
+<p>Use IA para criar seu próprio ebook, mini-curso, templates. Venda por R$ 17 a R$ 97 em escala. Este próprio ebook é um exemplo.</p>
+
+<h3>6. Afiliado técnico de IA (R$ 1.000 – R$ 30.000/mês)</h3>
+<p>Crie conteúdo ensinando a usar cada IA e afilie-se a elas (ChatGPT Plus, Gemini Advanced, HeyGen, ElevenLabs, etc.). Comissões de 20% a 50%.</p>
+
+<h3>7. SaaS micro (R$ 10.000 – R$ 100.000/mês)</h3>
+<p>Para quem domina Claude Code: crie uma micro-ferramenta que resolve 1 dor específica de 1 nicho. Cobre R$ 47/mês por acesso. Com 300 clientes, você está em R$ 14k/mês.</p>
+
+<hr style="margin:48px 0;border:0;border-top:2px solid var(--primary)">
+
+<h1>Conclusão: você não tem desculpa</h1>
+
+<p>Se você leu até aqui, você já sabe mais sobre IA do que 95% da população brasileira. O que separa esses 95% de você daqui pra frente é uma coisa só: ação. Abra o ChatGPT agora. Cole um prompt. Teste. Iterate. Erre. Corrige. Vende.</p>
+
+<p>A janela de oportunidade está aberta. Em 2 anos, todo mundo vai saber o que você vai saber. Quem capitalizar AGORA vai sair na frente e nunca mais ser alcançado.</p>
+
+<p>Os bônus que acompanham este ebook foram feitos para acelerar sua execução. Use o pack de prompts. Aplique o método de UGC. Escolha 1 dos 10 projetos de renda extra e COMECE. Essa semana mesmo.</p>
+
+<p>A gente se vê no topo.</p>
+
+<blockquote>"O melhor momento para plantar uma árvore foi há 20 anos. O segundo melhor momento é agora." — Provérbio chinês</blockquote>
+
+<p><a href="../obrigado.html" class="back-link">← Voltar para área de membros</a></p>
+
+</main>
+
+</body>
+</html>
